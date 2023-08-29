@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    body {
+      margin: 0;
+      height: 100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+background-color: black;
+    }
+    #main {
+      background: rgb(10,190,193);
+background: linear-gradient(75deg, rgba(10,190,193,1) 0%, rgba(0,183,255,1) 100%);
+      width: 300px;
+      height: 350px;
+      border-radius:30px;
+      display:flex;
+      justify-content:center;
+      box-shadow: 0px 0px 100px 2px rgba(16,9,255,0.4);
+    border:10px solid black;
+      
+    }
+    #inpt {
+        width:250px;
+        height:30px;
+        border-radius:20px;
+        margin-top:15px;
+        
+    }
+    #inpt::placeholder, #inpt{
+        font-weight:800;
+        font-size:16px;
+        text-align:center;
+    }
+    #main div {
+        color:white;
+        font-family:'Poppins', Arial, sans;
+        font-weight:600;
+        font-size:13px;
+    }
+    #tmp, #hum {
+        position:relative;
+    }
+    #cnd, #hum, #tmp {
+        border:0px solid white;
+        text-align:center;
+        align-items:center;
+        
+    }
+    #cnd {
+  text-align: center;
+  margin-top: 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative;
+  top:15%;
+  left:50%;
+  transform: translate(-50%, -50%)
+}
+    
+    #cnd i {
+        font-size:80px;
+        align-items:center;
+    }
+    #rw div h1{
+        font-size:20px;
+    }
+    #rw {
+        display:flex;
+        justify-content:space-between;
+        margin-top:10px;
+    }
+    #humid, #tempr {
+        font-size:30px;
+        position:absolute;
+        top:40%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    #main {
+        transition: all 0.2s linear;
+        border:0px solid white;
+    }
+    * {
+        transition:all 0.2s ease;
+        scroll-behavior: smooth;
+    }
+    a i {
+        font-size: 60px;
+        color: red;
+        background-color: black;
+        border-radius:80%
+        
+    }
+    a {
+        position:absolute;
+        bottom:0;
+        left:50%;
+        transform: translate(-50%, 0);
+        
+        
+    }
